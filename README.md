@@ -23,3 +23,11 @@ const OpenPdfSign = require("open-pdf-sign")
 
 await OpenPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key.pem","-c cert.pem")
 ```
+
+You can also use open-pdf-sign in your TypeScript files:
+
+```typescript
+import { OpenPdfSign } from "open-pdf-sign"
+
+await OpenPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key.pem","-c cert.pem")
+```
