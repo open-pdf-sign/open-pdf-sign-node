@@ -1,0 +1,28 @@
+{
+  "name": "open-pdf-sign-node",
+  "version": "0.0.1‚",
+  "description": "Node.js wrapper for open-pdf-sign",
+  "main": "index.js",
+  "author": "Thomas Schreiber",
+  "license": "APL-2.0",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm-install-fetch"
+  },
+  "dependencies": {
+    "npm-install-fetch": "^1.3.7",
+    "which": "^2.0.2"
+  },
+  "homepage": "https://github.com/open-pdf-sign/open-pdf-sign-node",
+  "bugs": {
+    "url": "https://github.com/open-pdf-sign/open-pdf-sign-node/issues"
+  },
+  "npm-install-fetch": {
+    "name": "open-pdf-sign java library (latest)",
+    "input": "https://github.com/open-pdf-sign/open-pdf-sign/releases/latest/download/open-pdf-sign.jar",
+    "output": "lib/open-pdf-sign.jar"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
