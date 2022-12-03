@@ -9,6 +9,12 @@ let javaBinary: string | null = null;
 
 const OpenPdfSign = {
     async sign(...params: Array<number | string>) {
+        //allow also array as param
+        if (params.length === 1 && Array.isArray(params)) {
+            // @ts-ignore
+            params = params[0];
+        }
+
         //initialize java binary first
         if (javaBinary === null) {
             javaBinary = await which('java', {nothrow: true})
