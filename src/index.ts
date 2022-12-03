@@ -7,7 +7,7 @@ const which = require('which')
 let openpdfsignJar = path.join(__dirname, "open-pdf-sign.jar")
 let javaBinary: string | null = null;
 
-const OpenPdfSign = {
+export const OpenPdfSign = {
     async sign(...params: Array<number | string>) {
         //allow also array as param
         if (params.length === 1 && Array.isArray(params)) {
@@ -45,5 +45,3 @@ const OpenPdfSign = {
         })();
     }
 }
-
-module.exports = OpenPdfSign;
