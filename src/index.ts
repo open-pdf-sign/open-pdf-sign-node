@@ -37,7 +37,6 @@ export const OpenPdfSign = {
                         console.log("open-pdf-sign error: " + error);
                         reject(error)
                     } else {
-                        console.log("pdf signed")
                         resolve()
                     }
                 })
