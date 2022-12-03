@@ -8,12 +8,18 @@ PDF files from your node.js applications.
 * nodejs
 * java
 
+## Installation
+
+```bash
+npm i open-pdf-sign
+```
+
 ## Usage
 
 See [demo/sample.js](demo/sample.js) file for how to use with.
 
 ```javascript
-const openPdfSign = require("../lib")
+const OpenPdfSign = require("open-pdf-sign")
 
-await openPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key.pem","-c cert.pem")
+await OpenPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key.pem","-c cert.pem")
 ```
