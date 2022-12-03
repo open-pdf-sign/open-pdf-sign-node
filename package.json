@@ -1,11 +1,11 @@
 {
-  "name": "open-pdf-sign",
+  "name": "@open-pdf-sign/open-pdf-sign",
   "version": "0.0.1",
   "description": "Node.js wrapper for open-pdf-sign",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Thomas Schreiber",
-  "license": "APL-2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
     "postinstall": "npm-install-fetch"
@@ -25,5 +25,12 @@
   },
   "devDependencies": {
     "typescript": "^4.9.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-pdf-sign/open-pdf-sign-node.git"
   }
 }
