@@ -1,5 +1,5 @@
 {
-  "name": "open-pdf-sign-node",
+  "name": "open-pdf-sign",
   "version": "0.0.1",
   "description": "Node.js wrapper for open-pdf-sign",
   "main": "lib/index.js",
