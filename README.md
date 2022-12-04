@@ -1,5 +1,7 @@
 # open-pdf-sign node.js wrapper
 
+[![npm-image](https://img.shields.io/npm/v/open-pdf-sign.svg)](https://www.npmjs.com/package/open-pdf-sign)
+
 Node.js wrapper for [open-pdf-sign CLI](https://github.com/open-pdf-sign/open-pdf-sign). This allows you to easily sign
 PDF files from your node.js applications.
 
