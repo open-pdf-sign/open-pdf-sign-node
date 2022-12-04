@@ -1,6 +1,6 @@
 {
   "name": "open-pdf-sign",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Node.js wrapper for open-pdf-sign",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -32,5 +32,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/open-pdf-sign/open-pdf-sign-node.git"
-  }
+  },
+  "keywords": [
+    "pdf signature",
+    "electronic signature",
+    "digital signature",
+    "pdf",
+    "open-pdf-sign",
+    "openpdfsign"
+  ]
 }
