@@ -1,4 +1,4 @@
-# open-pdf-sign-node
+# open-pdf-sign node.js wrapper
 
 Node.js wrapper for [open-pdf-sign CLI](https://github.com/open-pdf-sign/open-pdf-sign). This allows you to easily sign
 PDF files from your node.js applications.
