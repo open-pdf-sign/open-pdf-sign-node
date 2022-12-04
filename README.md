@@ -11,7 +11,7 @@ PDF files from your node.js applications.
 ## Installation
 
 ```bash
-npm i open-pdf-sign
+npm i open-pdf-sign --save
 ```
 
 ## Usage
@@ -34,3 +34,13 @@ import { OpenPdfSign } from "open-pdf-sign"
 
 await OpenPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key.pem","-c cert.pem")
 ```
+
+## Development
+
+After installing all dependencies and downloading the latest version
+of the *open-pdf-sign* CLI application by running `npm i`,
+run `npm run build` to build the typescript files.
+
+## License
+
+This project is licensed under the Apache 2.0-license.
