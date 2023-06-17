@@ -30,14 +30,19 @@ export const OpenPdfSign = {
         let fullIncovation = args.join(" ");
 
         //invoke open-pdf-sign
-        await (async () => {
-            return new Promise<void>((resolve, reject) => {
-                exec(fullIncovation, async function (error, stdout, stderr) {
+        return await (async () => {
+            return new Promise<Buffer|void>((resolve, reject) => {
+                exec(fullIncovation, { encoding: 'buffer' }, async function (error, stdout, stderr) {
                     if (error !== null) {
                         console.log("open-pdf-sign error: " + error);
                         reject(error)
                     } else {
-                        resolve()
+                        if (stdout && stdout.length > 0) {
+                            resolve(stdout);
+                        }
+                        else {
+                            resolve();
+                        }
                     }
                 })
             })
