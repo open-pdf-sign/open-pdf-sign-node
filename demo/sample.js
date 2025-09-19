@@ -3,7 +3,14 @@ const fs = require('fs').promises;
 
 //invoke the opernPdfSign CLI
 //https://github.com/open-pdf-sign/open-pdf-sign
-openPdfSign.sign("-i demo.pdf", "-o demo.signed.pdf","-k key_nopass.pem","-c cert.pem","--page -1")
+args = [
+    "-i", "demo.pdf",
+    "-o", "demo.signed.pdf",
+    "-k", "key_nopass.pem",
+    "-c", "cert.pem",
+    "--page", "-1"
+]
+openPdfSign.sign(args)
 .then(() => {
     console.log("signature successful")
 })

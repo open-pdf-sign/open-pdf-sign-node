@@ -1,6 +1,6 @@
 {
   "name": "open-pdf-sign",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Node.js wrapper for open-pdf-sign",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,8 +11,8 @@
     "postinstall": "npm-install-fetch"
   },
   "dependencies": {
-    "npm-install-fetch": "^1.3.8",
-    "which": "^2.0.2"
+    "npm-install-fetch": "^1.3.12",
+    "which": "^5.0.0"
   },
   "homepage": "https://github.com/open-pdf-sign/open-pdf-sign-node",
   "bugs": {
@@ -24,7 +24,7 @@
     "output": "lib/open-pdf-sign.jar"
   },
   "devDependencies": {
-    "typescript": "^4.9.3"
+    "typescript": "^5.9.2"
   },
   "directories": {
     "lib": "lib"
