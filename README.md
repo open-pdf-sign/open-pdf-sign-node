@@ -43,6 +43,10 @@ After installing all dependencies and downloading the latest version
 of the *open-pdf-sign* CLI application by running `npm i`,
 run `npm run build` to build the typescript files.
 
+## Changelog
+
+* v0.2.0 - Changed invocation - please update to use different array elements for different arguments
+
 ## License
 
 This project is licensed under the Apache 2.0-license.
