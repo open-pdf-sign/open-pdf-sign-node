@@ -8,20 +8,14 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm-install-fetch"
+    "postinstall": "node postinstall.js"
   },
   "dependencies": {
-    "npm-install-fetch": "^1.3.12",
     "which": "^5.0.0"
   },
   "homepage": "https://github.com/open-pdf-sign/open-pdf-sign-node",
   "bugs": {
     "url": "https://github.com/open-pdf-sign/open-pdf-sign-node/issues"
-  },
-  "npm-install-fetch": {
-    "name": "open-pdf-sign java library (latest)",
-    "input": "https://github.com/open-pdf-sign/open-pdf-sign/releases/latest/download/open-pdf-sign.jar",
-    "output": "lib/open-pdf-sign.jar"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
